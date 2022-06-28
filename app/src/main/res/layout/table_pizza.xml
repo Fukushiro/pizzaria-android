@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="6"
+    android:rowCount="1">
+
+    <TextView
+        android:id="@+id/tabelaPizzaId"
+        android:layout_width="44dp"
+        android:layout_height="wrap_content"
+        android:text="Id" />
+
+    <TextView
+        android:id="@+id/tabelaPizzaNome"
+        android:layout_width="58dp"
+        android:layout_height="wrap_content"
+        android:text="@string/tabelaPizza_nome"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/tabelaPizzaSabor"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:text="@string/tabelaPizza_sabor"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/tabelaPizzaQuantidade"
+        android:layout_width="88dp"
+        android:layout_height="wrap_content"
+        android:text="@string/tabelaPizza_quantidade"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/tabelaPizzaTamanho"
+        android:layout_width="85dp"
+        android:layout_height="wrap_content"
+        android:text="@string/tabelaPizza_tamanho"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/tabelaPizzaPreco"
+        android:layout_width="76dp"
+        android:layout_height="wrap_content"
+        android:text="@string/tabelaPizza_preco"
+        android:textSize="12sp" />
+</GridLayout>

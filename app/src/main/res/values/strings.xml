@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Pizzaria</string>
+
+    <!-- tabela pizza -->
+
+    <string name="tabelaPizza_nome">nome</string>
+    <string name="tabelaPizza_sabor">sabor</string>
+    <string name="tabelaPizza_quantidade">quantidade</string>
+    <string name="tabelaPizza_tamanho">tamanho</string>
+    <string name="tabelaPizza_preco">preco</string>
+    <!--Menu admin-->
+    <string name="menuAdmin_pízza">Pizza</string>
+    <string name="menuAdmin_pizza_cadastrar">Cadastrar pizza</string>
+    <!--Menu cliente-->
+    <string name="menuCliente_comprar">Comprar</string>
+    <!--tela1 login-->
+    <string name="tela1_nome_lbl">Nome:</string>
+    <string name="tela1_senha_lbl">Senha:</string>
+    <string name="tela1_btn_logar">Logar</string>
+    <string name="tela1_btn_cadastrar">Cadastrar</string>
+
+    <!--tela2 cadastrar-->
+    <string name="tela2_nome_lbl">Nome:</string>
+    <string name="tela2_senha_lbl">Senha:</string>
+    <string name="tela2_btn_cadastrar">Cadastrar</string>
+    <string name="tela2_tipo_lbl">Tipo:</string>
+    <string-array name="tela2_lista_tipos">
+        <item>Cliente</item>
+        <item>Admin</item>
+
+    </string-array>
+    <string name="tela2_btn_voltar">Voltar</string>
+
+    <!--tela3 admin cadastrar pizza-->
+    <string name="tela3_nome_hint">Nome</string>
+    <string name="tela3_sabor_hint">Sabor</string>
+    <string name="tela3_tamanho_hint">Tamanho</string>
+    <string name="tela3_quantidade_hint">Quantidade</string>
+    <string name="tela3_preco_hint">Preco</string>
+    <string name="tela3_cadastrar_btn">Cadastrar</string>
+    <string name="tela3_voltar_btn">Voltar</string>
+
+    <!-- tela4 cliente lista pizza -->
+    <string name="tela4_comprar_btn">comprar</string>
+
+    <!-- tela5 cliente comprar -->
+    <string name="tela5_nome">Nome</string>
+    <string name="tela5_sabor">Sabor</string>
+    <string name="tela5_tamanho">Tamanho</string>
+    <string name="tela5_quantidade">Quantidade</string>
+    <string name="tela5_preco_unitario">Preço unitario</string>
+    <string name="tela5_preco_total">Preço total</string>
+    <string name="tela5_btn_comprar">Comprar</string>
+</resources>
